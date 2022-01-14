@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div>
-    <h1>Selamat datang</h1>
-  </div>
-</body>
-</html>
+<div class="container">
+  <h1>Selamat datang</h1>
+  <span>pergi ke halaman </span>
+  <a href="<?=BASEURL?>/adminpersonalia">admin personalia</a>
+  <br/>
+  <!-- <span>pergi ke halaman </span>
+  <a href="<?=BASEURL?>/adminpersonalia">admin barang</a> -->
+</div>
 
